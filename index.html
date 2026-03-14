@@ -1,321 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Website Title -->
-    <title>Yasura Dissanayake - Professional software developer and designer</title>
-    <!-- Bootstrap -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Font-Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Lightbox -->
-	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- Text Rotator-->
-	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-	<!-- FlexSlider -->
-    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
-	<!-- Theme Style -->
-    <link href="css/style.css" rel="stylesheet">
-	<!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet">
-	<!-- Custom Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="assets/html5shiv/html5shiv.js"></script>
-    <script src="assets/respond/respond.min.js"></script>
-    <![endif]-->
-  </head>
-    <body id="top">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yasura Dissanayake - Full-stack Software Engineer with 9+ years experience. Portfolio and contact." />
+  <title>Yasura Dissanayake | Full-Stack Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#home" class="logo">YD</a>
+      <button type="button" class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <!-- ****************************** Preloader ************************** -->
-      <div id="preloader"></div>
-
-
-	  	<!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-        <header id="home">
-		    <!-- creative menu -->
-            <div class="container-fluid">
-              <div class="row">
-                <div class="menu-wrap">
-				<nav class="menu">
-				    <!-- Menu Links -->
-					<div class="icon-list">
-						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-						<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-						<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-						<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
-						<a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
-						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
-					</div>
-				</nav>
-			    </div>
-			    <button class="menu-button" id="open-button"></button><!-- menu button -->
-              </div><!--/row-->
-            </div><!--/container-->
-		  <!-- Header Image -->
-          <section class="hero" id="hero">
-            <div class="container">
-			  <!-- Slider Button (don't edit!)-->
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
-                </div>
-              </div>
-			  <!-- HEADER HEADLINE -->
-              <div class="row">
-                <div class="col-md-8 col-md-offset-1 inner">
-                  <h1 class="animated fadeInDown">
-                    Y<span style="color:#E04343;">A</span>SURA<br/>
-                    <span>D<span style="color:#FFE800">i</span>ssanayake</span>
-                  </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Developer</span></h3><!-- Text Rotator -->
-                </div>
-              </div>
-			  <!-- Learn More Button -->
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-			            <p>SEE MORE</p>
-			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
-			        </a>
-                </div>
-              </div>
-            </div>
-          </section>
-		  <!-- Header Image End -->
-        </header>
-		<!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
-		
-		
-		
-		
-		<!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
-          <div class="container">
-		    <!-- WELCOME TEXT -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
-				<!-- about / welcome text -->
-                <p>I am enough of an artist to draw freely upon my imagination. The point is that when I see a sunset or a <a href="#">waterfall</a> or something, for a split second it's so great, because for a little bit I'm out of my brain, and it's got nothing to do with me. I'm not trying to figure it out, you know what I mean? And I wonder if I can somehow find a way to maintain that mind stillness.</p>
-              </div>
-            </div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Yasura Dissanayake</h1>
+          <p class="hero-title">Full-Stack Software Engineer</p>
+          <p class="hero-tagline">9+ years building scalable applications with TypeScript, React, Node.js, Angular & cloud platforms.</p>
+          <div class="hero-cta">
+            <a href="https://www.linkedin.com/in/yasura-dissanayaka/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/yasuracreation" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
           </div>
-        </section>
+        </div>
+        <div class="hero-image-wrap">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4D03AQHgfamz5cz18Q/profile-displayphoto-scale_400_400/B4DZg9puHgHsAk-/0/1753381006810?e=1775088000&v=beta&t=-fOzkGjoiaN0Hy46vtnpH8goEjxHaKgA_ysbVkrNLtM"
+            alt="Yasura Dissanayake"
+            class="hero-image"
+            width="320"
+            height="320"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
 
-
-
-
-		
-		
-		
-		<!-- ==========================
-        NEWSLETTER SECTION 
-        =========================== -->
-        <section>
-		<div class="container-fluid">
-				<div class="row color-bg">
-				    <div class="col-md-6 nopadding subscribe text-center">
-					 <h1><i class="fa fa-paper-plane"></i><span>Subscribe our Newsletter</span></h1><!-- Heading -->
-                     <form action="index.html#">
-                       <input type="text" name="" value="" placeholder="" required><!-- E-Mail -->
-                       <input type="submit" name="" value="Send"><!-- Submit Button -->
-                    </form>   
-					</div>
-					<div class="col-md-6 nopadding features-intro-img">
-						 <div class="about-image" style="background-image:url(img/newsletter.png)"></div><!-- Right Image -->
-					</div>
-				</div>
-			</div>
-        </section>
-		<!-- ==========================
-        NEWSLETTER SECTION END
-        =========================== -->
-
-		
-		
-		<!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-        <section class="text-center section-padding contact-wrap" id="contact">
-		  <!-- To Top Button -->
-          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Drop <span>me</span> a line</h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-			  <!-- Adress Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>No 3 , Ranawana Rd ,Katugastota Kandy Sri Lanka </p>
-                </div>
-              </div>
-			  <!-- Phone Number Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+94 711526716</p>
-                </div>
-              </div>
-			  <!-- E-Mail Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="index.html#">yasuracreation@gmail.com</a></p>
-                </div>
-              </div>
-            </div>
-			<div class="row">
-			  <!-- Google Maps (Change your Settings below) -->
-			  <div class="col-md-6">
-			    <div id="googlemaps"></div>
-			  </div>
-			  <!-- Contact Form -->
-			  <div class="col-md-6 contact">
-			     <form role="form">
-				            <!-- Name -->
-                            <div class="row">
-                                <div class="col-md-6">
-								    <!-- E-Mail -->
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-								    <!-- Phone Number -->
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-							<!-- Message Area -->
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
-                            </div>
-							<!-- Subtmit Button -->
-                            <button type="submit" class="btn btn-send">
-                                Send message
-                            </button>
-                        </form>
-			  </div>
-			</div>
-			<br>
-			<!-- Social Buttons - use font-awesome, past in what you want -->
-            <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
-                </ul>
-              </div>
-            </div>
+    <section id="about" class="section">
+      <div class="container container--wide">
+        <h2 class="section-title">About me</h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text">
+              I'm a full-stack software engineer with 9+ years of experience, specializing in building scalable web applications and cloud-native solutions. I focus on clean architecture, performance, and delivering impact through technology.
+            </p>
+            <ul class="about-highlights">
+              <li>Master in Computer Science, University of Peradeniya (ML, Neural Networks, Image Processing)</li>
+              <li>B.Tech in Software Engineering, University of Vocational Technology</li>
+              <li>Based in Kandy, Sri Lanka — open to remote and collaboration</li>
+            </ul>
           </div>
-        </section>
-		<!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
-		
-		
-		
-		<!-- ==========================
-        FOOTER SECTION
-        =========================== -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2015 <a href="http://www.themewagon.com">ThemeWagon</a>
-              </div>
-            </div>
+          <div class="about-image-wrap">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4D03AQHgfamz5cz18Q/profile-displayphoto-scale_400_400/B4DZg9puHgHsAk-/0/1753381006810?e=1775088000&v=beta&t=-fOzkGjoiaN0Hy46vtnpH8goEjxHaKgA_ysbVkrNLtM"
+              alt="Yasura Dissanayake"
+              class="about-image"
+              width="200"
+              height="200"
+              loading="lazy"
+            />
           </div>
-        </footer>
-		<!-- ==========================
-        FOOTER SECTION END
-        =========================== -->		
-		
-		
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->           
-    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/waypoints.min.js"></script>
-    <!-- classie.js -->
-	<script src="js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="assets/flexslider/jquery.flexslider.js"></script>
-	<!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-	<!-- Text Rotator -->
-	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-	<!-- Lightbox.js -->
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps --> 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
-	<!-- Theme JavaScript Core -->
-	<script src="js/main.js"></script>
-	<script src="js/script.js"></script>
+        </div>
+      </div>
+    </section>
 
-	<!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
+    <section id="skills" class="section section-alt">
+      <div class="container container--wide">
+        <h2 class="section-title">Skills & tools</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages & frameworks</h3>
+            <p>TypeScript, JavaScript, React, Node.js, Angular, .NET Core</p>
+          </div>
+          <div class="skill-group">
+            <h3>Cloud & DevOps</h3>
+            <p>Azure, Docker, Jenkins, Kubernetes, GCP</p>
+          </div>
+          <div class="skill-group">
+            <h3>Databases</h3>
+            <p>Apache Cassandra, MySQL, MongoDB, Elasticsearch</p>
+          </div>
+          <div class="skill-group">
+            <h3>Other</h3>
+            <p>GraphQL, RabbitMQ, Git, Linux, CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
+    <section id="projects" class="section">
+      <div class="container container--wide">
+        <h2 class="section-title">Selected projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>JobSeeker Market Platform</h3>
+            <p>Full job marketplace with Node.js, React, Apache Cassandra & Azure. Achieved 60% new user enrollment in the first month.</p>
+            <a href="https://github.com/yasuracreation" target="_blank" rel="noopener noreferrer" class="link">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <h3>Process Automation System</h3>
+            <p>Angular 17 & .NET Core solution with ML integration and advanced distance measurement techniques.</p>
+            <a href="https://github.com/yasuracreation" target="_blank" rel="noopener noreferrer" class="link">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <h3>BQ Management System</h3>
+            <p>JavaScript-based management system. Part of my open-source contributions.</p>
+            <a href="https://github.com/yasuracreation/BqManagementSystem" target="_blank" rel="noopener noreferrer" class="link">View on GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
+    <section id="experience" class="section section-alt">
+      <div class="container container--wide">
+        <h2 class="section-title">Highlights</h2>
+        <ul class="highlights-list">
+          <li>Improved B2C application load times by 30%</li>
+          <li>Implemented modular front-end architectures for maintainability</li>
+          <li>Analyzed and resolved code security issues</li>
+          <li>Arctic Code Vault Contributor (GitHub)</li>
+        </ul>
+      </div>
+    </section>
 
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
+    <section id="contact" class="section contact-section">
+      <div class="container container--wide">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="contact-intro">Open to new opportunities, collaborations, and conversations.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/yasura-dissanayaka/" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">yasura-dissanayaka</span>
+          </a>
+          <a href="https://github.com/yasuracreation" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@yasuracreation</span>
+          </a>
+          <a href="mailto:hello.yasura@gmail.com" class="contact-card">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">hello.yasura@gmail.com</span>
+          </a>
+          <a href="tel:+94711526716" class="contact-card">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+94 711 526 716</span>
+          </a>
+        </div>
+        <p class="contact-location">Kandy, Sri Lanka</p>
+      </div>
+    </section>
+  </main>
 
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script>
-	
-	<!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-    $(".rotate").textrotator({
-      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-      speed: 2000 // How many milliseconds until the next word show.
+  <footer class="footer">
+    <p>© <span id="year"></span> Yasura Dissanayake. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelector('.nav-toggle').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('open');
+      this.classList.toggle('open');
     });
-    </script>
-	
-    </body>
+    document.querySelectorAll('.nav-links a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        document.querySelector('.nav-links').classList.remove('open');
+        document.querySelector('.nav-toggle').classList.remove('open');
+      });
+    });
+  </script>
+</body>
 </html>
